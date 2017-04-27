@@ -174,6 +174,9 @@ let special_hrefs =
       land_mine.name, "Land_mine";
       basic_grenade.name, "Basic_grenade";
       cluster_grenade.name, "Cluster_grenade";
+      military_science_pack.name, "Military_science_pack";
+      production_science_pack.name, "Production_science_pack";
+      high_tech_science_pack.name, "High_tech_science_pack";
       "Basic Oil Processing", "Basic_oil_processing";
       "Advanced Oil Processing", "Advanced_oil_processing";
       "Heavy Oil Cracking", "Oil_processing";
@@ -820,11 +823,11 @@ let () =
               [
                 div ~class_: "outputh1" [ text "Current Version" ];
                 p_text ~class_: "warning"
-                  "Factorio Planner uses recipes from Factorio v0.13.8. \
-                   Note that right now (July 11th 2016), \
-                   the Wiki is less up-to-date than \
-                   Factorio Planner. Also, don't be alarmed, some images \
-                   are missing but they should eventually be fixed.";
+                  "Factorio Planner uses recipes from Factorio v0.15.2. \
+                   Note that not all of the new items in the 0.15 update \
+                   have been added yet (particularly uranium products) but
+                   the ratios and production times for existing items should \
+                   be correct.";
                 div ~class_: "outputh1" [ text "Getting Started" ];
                 p_text
                   "Set the number next to each resource to the \
