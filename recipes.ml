@@ -210,7 +210,7 @@ let light_oil =
   res "Light Oil" [ maker "Basic Oil Processing" 1. ] 5. ~count: 3.
     [ 10., crude_oil ]
 let lubricant =
-  res "Lubricant" chemical_plant 1.
+  res "Lubricant" chemical_plant 1. ~count: 10.
     [ 10., heavy_oil ]
 let electric_engine_unit =
   res "Electric Engine Unit" am2 10.
