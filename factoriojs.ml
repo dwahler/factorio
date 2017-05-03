@@ -98,10 +98,14 @@ let special_icons =
       cluster_grenade.name, "Cluster_grenade";
       shotgun_shells.name, "Shotgun-shell";
       piercing_shotgun_shells.name, "Piercing-shotgun-shell";
-      small_pump.name, "Small-pump";
       military_science_pack.name, "Military_science_pack";
-      production_science_pack.name, "Production_science_pack";
       high_tech_science_pack.name, "High_tech_science_pack";
+      production_science_pack.name, "Production_science_pack";
+      nuclear_reactor.name, "Nuclear_reactor";
+      heat_pipe.name, "Heat_pipe";
+      steam_turbine.name, "Steam_turbine";
+      heat_exchanger.name, "Heat_exchanger";
+      fluid_wagon.name, "Fluid_wagon";
     ]
   in
   let table = Hashtbl.create 16 in
@@ -173,11 +177,19 @@ let special_hrefs =
       military_science_pack.name, "Military_science_pack";
       production_science_pack.name, "Production_science_pack";
       high_tech_science_pack.name, "High_tech_science_pack";
-      small_pump.name, "Small_pump";
       "Basic Oil Processing", "Basic_oil_processing";
       "Advanced Oil Processing", "Advanced_oil_processing";
       "Heavy Oil Cracking", "Oil_processing";
       "Light Oil Cracking", "Oil_processing";
+      military_science_pack.name, "Military_science_pack";
+      high_tech_science_pack.name, "High_tech_science_pack";
+      production_science_pack.name, "Production_science_pack";
+      nuclear_reactor.name, "Nuclear_reactor";
+      heat_pipe.name, "Heat_pipe";
+      steam_turbine.name, "Steam_turbine";
+      heat_exchanger.name, "Heat_exchanger";
+      fluid_wagon.name, "Fluid_wagon";
+
     ]
   in
   let table = Hashtbl.create 16 in
