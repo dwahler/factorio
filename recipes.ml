@@ -335,7 +335,7 @@ let construction_robot =
   res "Construction Robot" am1 0.5
     [ 1., flying_robot_frame; 2., electronic_circuit ]
 let roboport =
-  res "Roboport" am2 15.
+  res "Roboport" am2 10.
     [ 45., steel_plate; 45., iron_gear_wheel; 45., advanced_circuit ]
 
 (* Transport Belts *)
@@ -457,7 +457,7 @@ let r_assembling_machine_3 =
   res assembling_machine_3.name am1 0.5
     [ 2., r_assembling_machine_2; 4., speed_module ]
 let r_lab =
-  res "Lab" am2 5.
+  res "Lab" am2 3.
     [ 4., transport_belt; 10., iron_gear_wheel; 10., electronic_circuit ]
 let r_centrifuge =
    res "Centrifuge" am2 4.
@@ -518,15 +518,15 @@ let storage_tank =
   res "Storage Tank" am1 3.
     [ 20., iron_plate; 5., steel_plate ]
 let r_oil_refinery =
-  res "Oil Refinery" am3 20.
+  res "Oil Refinery" am3 10.
     [ 10., pipe; 15., steel_plate; 10., stone_brick; 10., iron_gear_wheel;
       10., electronic_circuit ]
 let r_chemical_plant =
-  res "Chemical Plant" am2 10.
+  res "Chemical Plant" am2 5.
     [ 5., steel_plate; 5., iron_gear_wheel; 5., electronic_circuit;
       5., pipe ]
 let r_pumpjack =
-  res "Pumpjack" am2 10.
+  res "Pumpjack" am2 5.
     [ 5., steel_plate; 10., iron_gear_wheel; 5., electronic_circuit;
       10., pipe ]
 let pump =
@@ -589,13 +589,13 @@ let science_pack_2 =
     [ 1., inserter; 1., transport_belt ]
 let science_pack_3 =
   res "Science Pack 3" am2 12.
-    [ 1., advanced_circuit; 1., engine_unit; 1., r_assembling_machine_1 ]
+    [ 1., advanced_circuit; 1., engine_unit; 1., r_electric_mining_drill ]
 let military_science_pack =
   res "Military science pack" am2 10. ~count: 2.
     [ 1., piercing_rounds_magazine; 1., basic_grenade; 1., gun_turret ]
 let production_science_pack =
   res "Production science pack" am2 14. ~count: 2.
-    [ 1., r_pumpjack; 1., electric_engine_unit; 1., r_electric_furnace ]
+    [ 1., electric_engine_unit; 1., r_assembling_machine_1; 1., r_electric_furnace ]
 let high_tech_science_pack =
   res "High tech science pack" am2 14. ~count: 2.
     [ 1., battery; 3., processing_unit; 1., speed_module; 30., copper_cable ]
