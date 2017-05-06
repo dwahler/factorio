@@ -824,7 +824,7 @@ let () =
               [
                 div ~class_: "outputh1" [ text "Current Version" ];
                 p_text ~class_: "warning"
-                  "Factorio Planner uses recipes from Factorio v0.15.2. \
+                  "Factorio Planner uses recipes from Factorio v0.15.9. \
                    Note that not all of the new items in the 0.15 update \
                    have been added yet (particularly uranium products) but
                    the ratios and production times for existing items should \

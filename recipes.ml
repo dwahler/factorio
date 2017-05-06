@@ -172,7 +172,7 @@ let sulfur =
     [ 30., water; 30., petroleum_gas ]
 let sulfuric_acid =
   res "Sulfuric Acid" chemical_plant 1. ~count: 50.
-    [ 1., iron_plate; 5., sulfur; 10., water ]
+    [ 1., iron_plate; 5., sulfur; 100., water ]
 let plastic_bar =
   res "Plastic Bar" chemical_plant 1. ~count: 2.
     [ 1., coal; 20., petroleum_gas ]
@@ -351,7 +351,7 @@ let fast_transport_belt =
     [ 1., transport_belt; 5., iron_gear_wheel ]
 let fast_underground_belt =
   res "Fast Underground Belt" am1 0.5 ~count: 2.
-    [ 20., iron_gear_wheel; 2., underground_belt ]
+    [ 40., iron_gear_wheel; 2., underground_belt ]
 let fast_splitter =
   res "Fast Splitter" am2 2.
     [ 1., splitter; 10., iron_gear_wheel; 10., electronic_circuit ]
@@ -360,7 +360,7 @@ let express_transport_belt =
     [ 1., fast_transport_belt; 10., iron_gear_wheel; 20., lubricant ]
 let express_underground_belt =
   res "Express Underground Belt" am1 0.5 ~count: 2.
-    [ 40., iron_gear_wheel; 2., fast_underground_belt; 40., lubricant ]
+    [ 80., iron_gear_wheel; 2., fast_underground_belt; 40., lubricant ]
 let express_splitter =
   res "Express Splitter" am2 2.
     [ 1., fast_splitter; 10., iron_gear_wheel; 10., advanced_circuit;
